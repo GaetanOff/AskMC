@@ -43,7 +43,7 @@ public class index {
             }
 
             itr.previous();
-            sb.append("" + count + current);
+            sb.append(count).append(current);
 
             current = itr.next();
         }
