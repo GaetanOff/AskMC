@@ -34,11 +34,11 @@ public class index {
         char current = itr.current();
         int count = 1;
 
-        while(current != CharacterIterator.DONE) {
+        while (current != CharacterIterator.DONE) {
 
             count = 1;
 
-            while(itr.next() == current) {
+            while (itr.next() == current) {
                 count++;
             }
 
