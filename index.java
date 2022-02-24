@@ -14,8 +14,9 @@ public class index {
 
     //Fonction pour calculer la suite
     public static void sequence(int nbr) {
-        if (nbr < 0)
+        if (nbr < 0) {
             return;
+        }
 
         String result = "1";
 
